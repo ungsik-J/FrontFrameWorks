@@ -10,12 +10,18 @@
     'args'
     ]
  */
+
+console.clear()
+console.log(`args.start--------------------->>`)
+const { timeStamp } = require('node:console');
 const { argv } = require('node:process');
+
+console.log(`argv : ` + argv)
 
 // print process.argv
 argv.forEach((val, index) => {
-  console.log(`${index}: ${val}`);
+  console.log(`index : ${index}: value : ${val}`);
 });
 
 
-
+console.log(`args.end----------------------->>`)
