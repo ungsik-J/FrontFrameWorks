@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /**
  * 콘솔에서의 입력값
  * https://opentutorials.org/module/3549/21062
@@ -15,3 +16,7 @@ const { argv } = require('node:process');
 argv.forEach((val, index) => {
   console.log(`${index}: ${val}`);
 });
+=======
+console.clear()
+console.log('a')
+>>>>>>> Stashed changes
