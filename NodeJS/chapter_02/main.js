@@ -19,6 +19,3 @@ argv.forEach((val, index) => {
 
 
 
-console.clear()
-console.log('a')
-
