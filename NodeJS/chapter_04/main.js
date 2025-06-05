@@ -1,8 +1,9 @@
 console.clear();
 console.log(`FileObject------------------------------->>`)
 
+var testFolder = 'c:\\devHome';
 var fs = require('fs');
-
-fs.readFile('fileReader.txt', 'utf8', function(err, data){
-  console.log(data);
-});
+ 
+fs.readdir(testFolder, function(error, filelist){
+  console.log(filelist);
+})
