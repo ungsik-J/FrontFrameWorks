@@ -1,7 +1,10 @@
 console.clear();
 console.log(`FileObject------------------------------->>`)
 
-var testFolder = 'c:\\devHome';
+const os = require('os');
+console.log('os.version==>' + ((os.version).toString()).indexOf('window') ); 
+
+var testFolder = '/';
 var fs = require('fs');
  
 fs.readdir(testFolder, function(error, filelist){
